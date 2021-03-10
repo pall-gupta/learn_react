@@ -11,7 +11,7 @@ class Counter extends Component {
 
   Addition = () => {
     return(
-    this.setState({ counter: this.state.counter + 1 })
+    this.setState({ counter: this.state.counter + 1 }) 
       // console.log("add")
     )
   }
@@ -24,7 +24,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-          <p>Counter = {this.state.counter}</p>
+          <p>Counter : {this.state.counter}</p>
           <button onClick={this.Addition}>+</button>
           <button onClick={this.Substraction}>-</button>
       </div>

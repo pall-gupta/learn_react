@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.male{
+color: blue;
+}
+.female{
+color: #333;
+}
 /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

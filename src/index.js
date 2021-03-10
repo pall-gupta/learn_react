@@ -4,12 +4,14 @@ import "./index.css";
 import Tick from "./Tick";
 import App from "./App";
 import Counter from "./Counter";
+import User from "./Ternary";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(<div>
     <App />
      <Tick /> 
      <Counter /> 
+     <User/>
      </div>, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
