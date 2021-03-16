@@ -1,17 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "./App.css";
 import Tick from "./Tick";
 import App from "./App";
 import Counter from "./Counter";
 import User from "./Ternary";
+import  Form from "./Form";
 import reportWebVitals from "./reportWebVitals";
-
 ReactDOM.render(<div>
     <App />
      <Tick /> 
      <Counter /> 
      <User/>
+     <Form/>
      </div>, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function

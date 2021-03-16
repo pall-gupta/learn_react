@@ -14,33 +14,30 @@ function hello() {
 
 export default hello;
 
+// import React, { Component } from "react";
+// import Welcome from "./Welcome";
 
-// class App extends Component {
-
-//   constructor(props) {
-//     super(props);
+// export default class App extends Component {
+//   constructor() {
+//     super();
 //     this.state = {
-//       count: 1
-//     }
-
+//       userProfile: {
+//         name: "jorav",
+//         age: 23,
+//         gender: "female",
+//       },
+//       users: ["Jorav", "Pallavi", "Gaurav", "Taaj"],
+//     };
 //   }
-
-//   handleCount(value) {
-//     this.setState((prevState) => ({ count: prevState.count + value }));
-//   }
-
 //   render() {
-
-
 //     return (
 //       <div>
-//         Current count: {this.state.count}
-//         <hr />
-//         <Button sign="+" count={this.state.count} updateCount={this.handleCount.bind(this)} />
-//         <Button sign="-" count={this.state.count} updateCount={this.handleCount.bind(this)} />
+//         <h1>Username: {this.state.userProfile.name}</h1>
+//         <h1>Age: {this.state.userProfile.age}</h1>
+//         <h1>Gender: {this.state.userProfile.gender} {this.state.userProfile.gender === 'male' ? "👲": "👩‍💻"} </h1>
 //       </div>
 //     );
+//     const element = this.state.users.map((user) => <Welcome name={user} key={user} />);
+//     return <div>{element}</div>;
 //   }
 // }
-
-// export default App;

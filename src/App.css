@@ -7,10 +7,10 @@
   pointer-events: none;
 }
 .male{
-color: blue;
+color: red;
 }
 .female{
-color: #333;
+color: blue;
 }
 /* 
 @media (prefers-reduced-motion: no-preference) {
