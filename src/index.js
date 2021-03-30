@@ -7,8 +7,11 @@ import App from "./App";
 import Counter from "./Counter";
 import User from "./Ternary";
 import  Form from "./Form";
+import Template from "./Template";
 import reportWebVitals from "./reportWebVitals";
+
 ReactDOM.render(<div>
+    <Template/>
     <App />
      <Tick /> 
      <Counter /> 
